@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\FPT\\OJT\\pubs-api\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\controllers\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\controllers\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\respositories\\titlerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\respositories\\titlerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\respositories\\ititlerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\respositories\\ititlerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\respositories\\storerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\respositories\\storerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\respositories\\istorerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\respositories\\istorerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,6 +71,110 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TitleController.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Controllers\\TitleController.cs",
+              "RelativeDocumentMoniker": "pubs1\\Controllers\\TitleController.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Controllers\\TitleController.cs",
+              "RelativeToolTip": "pubs1\\Controllers\\TitleController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAuwDsAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:35:37.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Title.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Models\\Title.cs",
+              "RelativeDocumentMoniker": "pubs1\\Models\\Title.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Models\\Title.cs",
+              "RelativeToolTip": "pubs1\\Models\\Title.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwBwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:34:22.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TitleRespository.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Respositories\\TitleRespository.cs",
+              "RelativeDocumentMoniker": "pubs1\\Respositories\\TitleRespository.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Respositories\\TitleRespository.cs",
+              "RelativeToolTip": "pubs1\\Respositories\\TitleRespository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA8wDEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:34:16.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "pubs1\\Controllers\\StoreController.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "pubs1\\Controllers\\StoreController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:33:38.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITitleRespository.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Respositories\\ITitleRespository.cs",
+              "RelativeDocumentMoniker": "pubs1\\Respositories\\ITitleRespository.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Respositories\\ITitleRespository.cs",
+              "RelativeToolTip": "pubs1\\Respositories\\ITitleRespository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:33:24.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StoreRespository.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Respositories\\StoreRespository.cs",
+              "RelativeDocumentMoniker": "pubs1\\Respositories\\StoreRespository.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Respositories\\StoreRespository.cs",
+              "RelativeToolTip": "pubs1\\Respositories\\StoreRespository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAACkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:32:31.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStoreRespository.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Respositories\\IStoreRespository.cs",
+              "RelativeDocumentMoniker": "pubs1\\Respositories\\IStoreRespository.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Respositories\\IStoreRespository.cs",
+              "RelativeToolTip": "pubs1\\Respositories\\IStoreRespository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:32:08.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Store.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Models\\Store.cs",
+              "RelativeDocumentMoniker": "pubs1\\Models\\Store.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Models\\Store.cs",
+              "RelativeToolTip": "pubs1\\Models\\Store.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:30:34.19Z",
+              "EditorCaption": ""
             }
           ]
         }
