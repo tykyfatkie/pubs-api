@@ -1,0 +1,52 @@
+﻿{
+   "ConnectionStringName": "dab-connection-string",
+   "Dacpac": null,
+   "DatabaseType": 3,
+   "ProjectPath": "D:\\FPT\\OJT\\pubs\\WebApplication1",
+   "Tables": [
+      {
+         "Name": "[dbo].[authors]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[discounts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[employee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[jobs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[pub_info]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[publishers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[roysched]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[sales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[stores]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[titleauthor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[titles]",
+         "ObjectType": 0
+      }
+   ]
+}

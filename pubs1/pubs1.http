@@ -1,0 +1,6 @@
+@pubs1_HostAddress = http://localhost:5215
+
+GET {{pubs1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
