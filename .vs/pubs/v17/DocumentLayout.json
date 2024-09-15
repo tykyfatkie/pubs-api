@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "D:\\FPT\\OJT\\pubs-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\services\\implementation\\titleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\implementation\\titleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\services\\implementation\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\implementation\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\services\\interface\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\interface\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\services\\interface\\ititleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\interface\\ititleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\services\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\interface\\iemployeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\services\\implementation\\titleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\implementation\\titleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api\\pubs1\\services\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +42,98 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmployeeService.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Interface\\IEmployeeService.cs",
+              "RelativeDocumentMoniker": "pubs1\\Services\\Interface\\IEmployeeService.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Interface\\IEmployeeService.cs",
+              "RelativeToolTip": "pubs1\\Services\\Interface\\IEmployeeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:52:30.434Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Program.cs",
+              "RelativeDocumentMoniker": "pubs1\\Program.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Program.cs",
+              "RelativeToolTip": "pubs1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T18:00:28.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoreService.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Implementation\\StoreService.cs",
+              "RelativeDocumentMoniker": "pubs1\\Services\\Implementation\\StoreService.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Implementation\\StoreService.cs",
+              "RelativeToolTip": "pubs1\\Services\\Implementation\\StoreService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAADUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:55:50.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IStoreService.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Interface\\IStoreService.cs",
+              "RelativeDocumentMoniker": "pubs1\\Services\\Interface\\IStoreService.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Interface\\IStoreService.cs",
+              "RelativeToolTip": "pubs1\\Services\\Interface\\IStoreService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:55:19.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Store.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Models\\Store.cs",
+              "RelativeDocumentMoniker": "pubs1\\Models\\Store.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Models\\Store.cs",
+              "RelativeToolTip": "pubs1\\Models\\Store.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAABQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:54:17.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITitleService.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Interface\\ITitleService.cs",
+              "RelativeDocumentMoniker": "pubs1\\Services\\Interface\\ITitleService.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Interface\\ITitleService.cs",
+              "RelativeToolTip": "pubs1\\Services\\Interface\\ITitleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T17:54:00.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TitleServices.cs",
               "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Implementation\\TitleServices.cs",
               "RelativeDocumentMoniker": "pubs1\\Services\\Implementation\\TitleServices.cs",
               "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Implementation\\TitleServices.cs",
               "RelativeToolTip": "pubs1\\Services\\Implementation\\TitleServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwAoAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T16:54:10.698Z",
+              "WhenOpened": "2024-09-15T17:51:56.89Z",
               "EditorCaption": ""
             },
             {
@@ -63,15 +166,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IEmployeeService.cs",
-              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Interface\\IEmployeeService.cs",
-              "RelativeDocumentMoniker": "pubs1\\Services\\Interface\\IEmployeeService.cs",
-              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Interface\\IEmployeeService.cs",
-              "RelativeToolTip": "pubs1\\Services\\Interface\\IEmployeeService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "DocumentIndex": 7,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Implementation\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "pubs1\\Services\\Implementation\\EmployeeService.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api\\pubs1\\Services\\Implementation\\EmployeeService.cs",
+              "RelativeToolTip": "pubs1\\Services\\Implementation\\EmployeeService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAmwDEAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-15T16:52:30.434Z",
+              "WhenOpened": "2024-09-15T17:05:31.073Z",
               "EditorCaption": ""
             }
           ]
