@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gApT+IBhIUY=",
+  "dgSpecHash": "reK7uHofE7w=",
   "success": true,
-  "projectFilePath": "D:\\FPT\\OJT\\pubs-api\\pubs1\\pubs1.csproj",
+  "projectFilePath": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\pubs1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ggfct\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ggfct\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

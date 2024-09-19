@@ -3141,11 +3141,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\FPT\\OJT\\pubs-api\\pubs1\\pubs1.csproj",
+      "projectUniqueName": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\pubs1.csproj",
       "projectName": "pubs1",
-      "projectPath": "D:\\FPT\\OJT\\pubs-api\\pubs1\\pubs1.csproj",
+      "projectPath": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\pubs1.csproj",
       "packagesPath": "C:\\Users\\ggfct\\.nuget\\packages\\",
-      "outputPath": "D:\\FPT\\OJT\\pubs-api\\pubs1\\obj\\",
+      "outputPath": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ggfct\\AppData\\Roaming\\NuGet\\NuGet.Config",

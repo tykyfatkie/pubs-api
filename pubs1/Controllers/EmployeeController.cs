@@ -1,34 +1,34 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using pubs1.Models;
-using pubs1.Repositories;
+using pubs1.Services;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace pubs1.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class EmployeeController : ControllerBase
     {
-        private readonly IEmployeeRepository _repository;
+        private readonly IEmployeeService _employeeService;
 
-        public EmployeeController(IEmployeeRepository repository)
+        public EmployeeController(IEmployeeService employeeService)
         {
-            _repository = repository;
+            _employeeService = employeeService;
         }
 
+        // GET: api/employee
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Employee>>> GetEmployees()
+        public ActionResult<IEnumerable<Employee>> GetAllEmployees()
         {
-            var employees = await _repository.GetAllEmployeesAsync();
+            var employees = _employeeService.GetAllEmployees();
             return Ok(employees);
         }
 
+        // GET: api/employee/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<Employee>> GetEmployee(string id)
+        public ActionResult<Employee> GetEmployeeById(string id)
         {
-            var employee = await _repository.GetEmployeeByIdAsync(id);
+            var employee = _employeeService.GetEmployeeById(id);
             if (employee == null)
             {
                 return NotFound();
@@ -36,41 +36,40 @@ namespace pubs1.Controllers
             return Ok(employee);
         }
 
+        // POST: api/employee
         [HttpPost]
-        public async Task<ActionResult<Employee>> CreateEmployee(Employee employee)
+        public ActionResult AddEmployee([FromBody] Employee employee)
         {
-            await _repository.AddEmployeeAsync(employee);
-            return CreatedAtAction(nameof(GetEmployee), new { id = employee.EmpId }, employee);
+            _employeeService.AddEmployee(employee);
+            return CreatedAtAction(nameof(GetEmployeeById), new { id = employee.EmpId }, employee);
         }
 
+        // PUT: api/employee/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateEmployee(string id, Employee employee)
+        public ActionResult UpdateEmployee(string id, [FromBody] Employee employee)
         {
-            if (id != employee.EmpId)
+            var existingEmployee = _employeeService.GetEmployeeById(id);
+            if (existingEmployee == null)
             {
-                return BadRequest();
+                return NotFound();
             }
 
-            try
-            {
-                await _repository.UpdateEmployeeAsync(employee);
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (await _repository.GetEmployeeByIdAsync(id) == null)
-                {
-                    return NotFound();
-                }
-                throw;
-            }
-
+            employee.EmpId = id; // Đảm bảo ID không thay đổi
+            _employeeService.UpdateEmployee(employee);
             return NoContent();
         }
 
+        // DELETE: api/employee/{id}
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteEmployee(string id)
+        public ActionResult DeleteEmployee(string id)
         {
-            await _repository.DeleteEmployeeAsync(id);
+            var employee = _employeeService.GetEmployeeById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            _employeeService.DeleteEmployee(id);
             return NoContent();
         }
     }
