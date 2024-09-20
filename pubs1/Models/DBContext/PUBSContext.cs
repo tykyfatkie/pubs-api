@@ -25,7 +25,7 @@ public partial class PUBSContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 
-        => optionsBuilder.UseSqlServer("Data Source=TYPHAT\\SQLEXPRESS;Initial Catalog=PUBS;Persist Security Info=True;User ID=sa;Password=12345");
+        => optionsBuilder.UseSqlServer("server=TYPHAT\\SQLEXPRESS; database=pubs;uid=sa;pwd=12345; TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
