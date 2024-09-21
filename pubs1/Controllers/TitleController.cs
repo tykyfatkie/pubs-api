@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using pubs1.Models;
-using pubs1.Repositories;
+using pubs1.Services;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -11,66 +10,83 @@ namespace pubs1.Controllers
     [ApiController]
     public class TitleController : ControllerBase
     {
-        private readonly ITitleRepository _repository;
+        private readonly ITitleService _titleService;
 
-        public TitleController(ITitleRepository repository)
+        public TitleController(ITitleService titleService)
         {
-            _repository = repository;
+            _titleService = titleService;
         }
 
+        // GET: api/Title
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Title>>> GetTitles()
+        public async Task<ActionResult<IEnumerable<Title>>> GetAllTitles()
         {
-            var titles = await _repository.GetAllTitlesAsync();
+            var titles = await _titleService.GetAllTitlesAsync();
             return Ok(titles);
         }
 
+        // GET: api/Title/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<Title>> GetTitle(string id)
+        public async Task<ActionResult<Title>> GetTitleById(string id)
         {
-            var title = await _repository.GetTitleByIdAsync(id);
+            var title = await _titleService.GetTitleByIdAsync(id);
+
             if (title == null)
             {
                 return NotFound();
             }
+
             return Ok(title);
         }
 
+        // POST: api/Title
         [HttpPost]
-        public async Task<ActionResult<Title>> CreateTitle(Title title)
+        public async Task<ActionResult> AddTitle([FromBody] Title title)
         {
-            await _repository.AddTitleAsync(title);
-            return CreatedAtAction(nameof(GetTitle), new { id = title.TitleId }, title);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            await _titleService.AddTitleAsync(title);
+            return CreatedAtAction(nameof(GetTitleById), new { id = title.TitleId }, title);
         }
 
+        // PUT: api/Title/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateTitle(string id, Title title)
+        public async Task<IActionResult> UpdateTitle(string id, [FromBody] Title title)
         {
             if (id != title.TitleId)
             {
-                return BadRequest();
+                return BadRequest("Title ID mismatch.");
             }
 
-            try
+            if (!ModelState.IsValid)
             {
-                await _repository.UpdateTitleAsync(title);
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (await _repository.GetTitleByIdAsync(id) == null)
-                {
-                    return NotFound();
-                }
-                throw;
+                return BadRequest(ModelState);
             }
 
+            var existingTitle = await _titleService.GetTitleByIdAsync(id);
+            if (existingTitle == null)
+            {
+                return NotFound();
+            }
+
+            await _titleService.UpdateTitleAsync(title);
             return NoContent();
         }
 
+        // DELETE: api/Title/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTitle(string id)
         {
-            await _repository.DeleteTitleAsync(id);
+            var title = await _titleService.GetTitleByIdAsync(id);
+            if (title == null)
+            {
+                return NotFound();
+            }
+
+            await _titleService.DeleteTitleAsync(id);
             return NoContent();
         }
     }

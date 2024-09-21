@@ -1,12 +1,10 @@
-﻿using System;
+﻿using pubs1.Models;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using pubs1.Models;
-using pubs1.Services.Interface;
 
-namespace pubs1.Services.Implementation
+namespace pubs1.Services
 {
     public class TitleService : ITitleService
     {
@@ -22,57 +20,45 @@ namespace pubs1.Services.Implementation
             return await _context.Titles.ToListAsync();
         }
 
-        public async Task<Title> GetTitleByIdAsync(string id)
+        public async Task<Title> GetTitleByIdAsync(string titleId)
         {
-            return await _context.Titles.FindAsync(id);
+            return await _context.Titles.FindAsync(titleId);
         }
 
-        public async Task<Title> AddTitleAsync(Title newTitle)
+        public async Task AddTitleAsync(Title title)
         {
-            _context.Titles.Add(newTitle);
+            await _context.Titles.AddAsync(title);
             await _context.SaveChangesAsync();
-            return newTitle;
         }
 
-        public async Task<Title> UpdateTitleAsync(string id, Title updatedTitle)
+        public async Task UpdateTitleAsync(Title title)
         {
-            var existingTitle = await _context.Titles.FindAsync(id);
-            if (existingTitle == null)
+            var existingTitle = await _context.Titles.FindAsync(title.TitleId);
+            if (existingTitle != null)
             {
-                return null;
+                existingTitle.Title1 = title.Title1;
+                existingTitle.Type = title.Type;
+                existingTitle.PubId = title.PubId;
+                existingTitle.Price = title.Price;
+                existingTitle.Advance = title.Advance;
+                existingTitle.Royalty = title.Royalty;
+                existingTitle.YtdSales = title.YtdSales;
+                existingTitle.Notes = title.Notes;
+                existingTitle.Pubdate = title.Pubdate;
+
+                _context.Titles.Update(existingTitle);
+                await _context.SaveChangesAsync();
             }
-
-            // Cập nhật các thuộc tính của existingTitle bằng giá trị từ updatedTitle
-            existingTitle.Title1 = updatedTitle.Title1;
-            existingTitle.Type = updatedTitle.Type;
-            existingTitle.PubId = updatedTitle.PubId;
-            existingTitle.Price = updatedTitle.Price;
-            existingTitle.Advance = updatedTitle.Advance;
-            existingTitle.Royalty = updatedTitle.Royalty;
-            existingTitle.YtdSales = updatedTitle.YtdSales;
-            existingTitle.Notes = updatedTitle.Notes;
-            existingTitle.Pubdate = updatedTitle.Pubdate;
-
-            await _context.SaveChangesAsync();
-            return existingTitle;
         }
 
-        public async Task<bool> DeleteTitleAsync(string id)
+        public async Task DeleteTitleAsync(string titleId)
         {
-            var title = await _context.Titles.FindAsync(id);
-            if (title == null)
+            var title = await _context.Titles.FindAsync(titleId);
+            if (title != null)
             {
-                return false;
+                _context.Titles.Remove(title);
+                await _context.SaveChangesAsync();
             }
-
-            _context.Titles.Remove(title);
-            await _context.SaveChangesAsync();
-            return true;
-        }
-
-        public Task<IEnumerable<Title>> GetAllTitleAsync()
-        {
-            throw new NotImplementedException();
         }
     }
 }

@@ -1,76 +1,75 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using pubs1.Models;
-using pubs1.Repositories;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using pubs1.Models;
+using pubs1.Services.Interface;
 
 namespace pubs1.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class StoreController : ControllerBase
     {
-        private readonly IStoreRepository _repository;
+        private readonly IStoreService _storeService;
 
-        public StoreController(IStoreRepository repository)
+        public StoreController(IStoreService storeService)
         {
-            _repository = repository;
+            _storeService = storeService;
         }
 
+        // GET: api/store
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Store>>> GetStores()
         {
-            var stores = await _repository.GetAllStoresAsync();
+            var stores = await _storeService.GetAllStoresAsync();
             return Ok(stores);
         }
 
+        // GET: api/store/{id}
         [HttpGet("{id}")]
         public async Task<ActionResult<Store>> GetStore(string id)
         {
-            var store = await _repository.GetStoreByIdAsync(id);
+            var store = await _storeService.GetStoreByIdAsync(id);
+
             if (store == null)
             {
                 return NotFound();
             }
+
             return Ok(store);
         }
 
+        // POST: api/store
         [HttpPost]
-        public async Task<ActionResult<Store>> CreateStore(Store store)
+        public async Task<ActionResult<Store>> AddStore([FromBody] Store newStore)
         {
-            await _repository.AddStoreAsync(store);
-            return CreatedAtAction(nameof(GetStore), new { id = store.StorId }, store);
+            var createdStore = await _storeService.AddStoreAsync(newStore);
+            return CreatedAtAction(nameof(GetStore), new { id = createdStore.StorId }, createdStore);
         }
 
+        // PUT: api/store/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateStore(string id, Store store)
+        public async Task<IActionResult> UpdateStore(string id, [FromBody] Store updatedStore)
         {
-            if (id != store.StorId)
+            var store = await _storeService.UpdateStoreAsync(id, updatedStore);
+            if (store == null)
             {
-                return BadRequest();
-            }
-
-            try
-            {
-                await _repository.UpdateStoreAsync(store);
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (await _repository.GetStoreByIdAsync(id) == null)
-                {
-                    return NotFound();
-                }
-                throw;
+                return NotFound();
             }
 
             return NoContent();
         }
 
+        // DELETE: api/store/{id}
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteStore(string id)
         {
-            await _repository.DeleteStoreAsync(id);
+            var success = await _storeService.DeleteStoreAsync(id);
+            if (!success)
+            {
+                return NotFound();
+            }
+
             return NoContent();
         }
     }

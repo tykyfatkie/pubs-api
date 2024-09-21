@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\models\\dbcontext\\pubscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\models\\dbcontext\\pubscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\services\\implementation\\titleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\implementation\\titleservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\controllers\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\controllers\\titlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\services\\interface\\ititleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\interface\\ititleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\respositories\\employeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\respositories\\employeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\services\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\services\\implementation\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|d:\\fpt\\ojt\\pubs-api-main\\pubs-api\\pubs1\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50139221-AF98-451E-8C03-F95049E69D21}|pubs1\\pubs1.csproj|solutionrelative:pubs1\\models\\title.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,80 +58,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PUBSContext.cs",
-              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Models\\DBContext\\PUBSContext.cs",
-              "RelativeDocumentMoniker": "pubs1\\Models\\DBContext\\PUBSContext.cs",
-              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Models\\DBContext\\PUBSContext.cs",
-              "RelativeToolTip": "pubs1\\Models\\DBContext\\PUBSContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:33:54.09Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EmployeeRespository.cs",
-              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Respositories\\EmployeeRespository.cs",
-              "RelativeDocumentMoniker": "pubs1\\Respositories\\EmployeeRespository.cs",
-              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Respositories\\EmployeeRespository.cs",
-              "RelativeToolTip": "pubs1\\Respositories\\EmployeeRespository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAApAAAA",
+              "Title": "Title.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Models\\Title.cs",
+              "RelativeDocumentMoniker": "pubs1\\Models\\Title.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Models\\Title.cs",
+              "RelativeToolTip": "pubs1\\Models\\Title.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:33:40.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\appsettings.json",
-              "RelativeDocumentMoniker": "pubs1\\appsettings.json",
-              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\appsettings.json",
-              "RelativeToolTip": "pubs1\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-20T07:33:28.939Z",
+              "WhenOpened": "2024-09-21T05:51:23.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Program.cs",
-              "RelativeDocumentMoniker": "pubs1\\Program.cs",
-              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Program.cs",
-              "RelativeToolTip": "pubs1\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
+              "Title": "ITitleService.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Services\\Interface\\ITitleService.cs",
+              "RelativeDocumentMoniker": "pubs1\\Services\\Interface\\ITitleService.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Services\\Interface\\ITitleService.cs",
+              "RelativeToolTip": "pubs1\\Services\\Interface\\ITitleService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:32:15.919Z",
+              "WhenOpened": "2024-09-21T05:46:49.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "pubs1\\Controllers\\EmployeeController.cs",
-              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "pubs1\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA8AAAA",
+              "DocumentIndex": 1,
+              "Title": "TitleController.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Controllers\\TitleController.cs",
+              "RelativeDocumentMoniker": "pubs1\\Controllers\\TitleController.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Controllers\\TitleController.cs",
+              "RelativeToolTip": "pubs1\\Controllers\\TitleController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:30:39.533Z",
+              "WhenOpened": "2024-09-21T05:43:39.049Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeService.cs",
-              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Services\\Implementation\\EmployeeService.cs",
-              "RelativeDocumentMoniker": "pubs1\\Services\\Implementation\\EmployeeService.cs",
-              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Services\\Implementation\\EmployeeService.cs",
-              "RelativeToolTip": "pubs1\\Services\\Implementation\\EmployeeService.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAmwCwAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "TitleServices.cs",
+              "DocumentMoniker": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Services\\Implementation\\TitleServices.cs",
+              "RelativeDocumentMoniker": "pubs1\\Services\\Implementation\\TitleServices.cs",
+              "ToolTip": "D:\\FPT\\OJT\\pubs-api-main\\pubs-api\\pubs1\\Services\\Implementation\\TitleServices.cs",
+              "RelativeToolTip": "pubs1\\Services\\Implementation\\TitleServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T07:30:37.932Z",
+              "WhenOpened": "2024-09-21T05:41:47.658Z",
               "EditorCaption": ""
             }
           ]
